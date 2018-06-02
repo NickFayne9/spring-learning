@@ -1,6 +1,10 @@
 package com.nick.lesson2.filter;
 
 
+import org.springframework.core.type.classreading.MetadataReader;
+import org.springframework.core.type.classreading.MetadataReaderFactory;
+import org.springframework.core.type.filter.TypeFilter;
+
 import java.io.IOException;
 
 /**

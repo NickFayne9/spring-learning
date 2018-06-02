@@ -12,18 +12,15 @@
     <artifactId>lesson-1</artifactId>
 
     <dependencies>
-        <!-- Spring IOC 需要用到的依赖-->
+        <!-- -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
 
-        <!-- 单元测试需要的依赖-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
