@@ -17,7 +17,7 @@ public class WindowsCondition implements Condition {
         context.getClassLoader();
         //3. 获取环境变量信息（很重要）
         Environment environment = context.getEnvironment();
-        //4. 获取 bean 定义的注册类
+        //4. 获取 bean 定义的注册类（获取 IOC 注册情况，可以注册 bean）
         context.getRegistry();
         //5. 获取
         context.getResourceLoader();
