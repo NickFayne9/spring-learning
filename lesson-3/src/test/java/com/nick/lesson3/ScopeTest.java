@@ -12,7 +12,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class ScopeTest {
 
     @Test
-    public void testScope1(){
+    public void testScope(){
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ScopeConfig.class);
         System.out.println(applicationContext.getBean("person").hashCode());
         System.out.println(applicationContext.getBean("person").hashCode());
