@@ -6,6 +6,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 
 /**
+ * WindowsCondition 配置类
  * @author NickFayne 2018-06-03 10:03
  */
 public class WindowsCondition implements Condition {
@@ -26,7 +27,7 @@ public class WindowsCondition implements Condition {
         //return false;
 
         if("Windows 10".equals(environment.getProperty("os.name"))){
-            return true;
+            return false;
         }else{
             return false;
         }
