@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lesson-2</artifactId>
+    <artifactId>lesson-3</artifactId>
 
     <dependencies>
         <!-- IOC 需要的依赖 -->
