@@ -1,5 +1,6 @@
 package com.nick.lesson6.config;
 
+import com.nick.lesson6.beanPostProcessor.MyBeanPostProcessor;
 import com.nick.lesson6.model.Cat;
 import com.nick.lesson6.model.Dog;
 import org.springframework.context.annotation.Bean;
@@ -23,4 +24,10 @@ public class InitDestroyConfig {
     public Dog dog(){
         return new Dog();
     }
+
+    @Bean
+    public MyBeanPostProcessor myBeanPostProcessor(){
+        return new MyBeanPostProcessor();
+    }
+
 }
