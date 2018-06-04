@@ -13,13 +13,13 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class InitDestroyConfig {
 
-    @Bean(initMethod = "init", destroyMethod = "destroy")
+    @Bean(initMethod = "init", destroyMethod = "myDestroy")
     public Cat cat(){
         return new Cat();
     }
 
     @Scope("prototype")
-    @Bean(initMethod = "init", destroyMethod = "destroy")
+    @Bean(initMethod = "init", destroyMethod = "myDestroy")
     public Dog dog(){
         return new Dog();
     }
