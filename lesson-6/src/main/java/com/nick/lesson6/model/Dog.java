@@ -10,7 +10,7 @@ import org.springframework.beans.factory.InitializingBean;
 public class Dog implements InitializingBean, DisposableBean {
 
     public Dog(){
-        System.out.println("狗的构造器");
+        System.out.println("狗的构造方法");
     }
 
     public void init(){
