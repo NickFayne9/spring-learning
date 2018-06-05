@@ -17,7 +17,7 @@ import org.springframework.context.annotation.FilterType;
 //        includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Controller.class)})
 @ComponentScan(value = "com.nick",
         useDefaultFilters = false,
-        includeFilters = {@ComponentScan.Filter(type = FilterType.CUSTOM, value = MyFilterType.class)})
+        excludeFilters = {@ComponentScan.Filter(type = FilterType.CUSTOM, value = MyFilterType.class)})
 public class BeanConfig {
 
     @Bean("person")
