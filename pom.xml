@@ -17,6 +17,7 @@
         <module>lesson-6</module>
         <module>lesson-7</module>
         <module>lesson-8</module>
+        <module>lesson-9</module>
     </modules>
 
     <dependencyManagement>
@@ -24,7 +25,8 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
-                <version>5.0.6.RELEASE</version>
+                <!--<version>5.0.6.RELEASE</version>-->
+                <version>4.3.17.RELEASE</version>
             </dependency>
 
             <dependency>
