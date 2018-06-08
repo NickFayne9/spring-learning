@@ -16,7 +16,7 @@ public class Color {
 
     //@Qualifier("red2")
     //@Autowired
-    //@Resource
+    @Resource
     //@Inject
     private Red red;
 
